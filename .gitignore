@@ -1,0 +1,5 @@
+.DS_Store
+.build/
+Javira.app/
+*.xcuserstate
+xcuserdata/

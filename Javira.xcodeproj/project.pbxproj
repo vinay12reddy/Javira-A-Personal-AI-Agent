@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+/* Begin PBXBuildFile section */
+		BE9B26372F0ABECE88386A40 /* JaviraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BF95E9360458D0F32C68C3 /* JaviraApp.swift */; };
+		C29F2508500FFA8CE3AB443E /* AssistantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABDC7B0230D4D4F80C0EB59 /* AssistantViewModel.swift */; };
+		BB406DF6750F302763B02B70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F83DEFE156A61B4DD39CCE9 /* ContentView.swift */; };
+		6042B53241633F8926DE456E /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31F2191C6D4A7FE8646CC3A /* MenuBarView.swift */; };
+		B643327657DE9D944D6CF2D3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6D022DF6A62E9763FF11D8 /* SettingsView.swift */; };
+		C963009334544D29914C89AE /* PermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C20BFA670D59693B96E0F50 /* PermissionView.swift */; };
+		A4CDE71F59D360F19001CAC9 /* ActionHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1F3C05B305B0F81B7C7A0E /* ActionHistoryView.swift */; };
+		1FB2FF7F03C381B2614412F3 /* SpeechRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20D65BE7901BBBBDCDA7B4 /* SpeechRecognitionService.swift */; };
+		0108370810A845405CEA94FC /* SpeechSynthesisService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E6F15047AD15B3E11CB94F /* SpeechSynthesisService.swift */; };
+		B512CDFA5BA3076DFCE47397 /* PermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E811A2143F64F1E8214F4C04 /* PermissionManager.swift */; };
+		A4B0BAD48135CB59DE956D0A /* CommandParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB8B6801B6C647800DCBD6A /* CommandParser.swift */; };
+		529D304D9CECB42E4B76A7D3 /* AssistantIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048ADAE8F4158A7D4C4879C9 /* AssistantIntent.swift */; };
+		91844FD63B3700BBF383CD74 /* CommandPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34014A61B1812DC5EF49AFC4 /* CommandPolicy.swift */; };
+		322385D84641DB6C71E1F8AE /* CommandExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CFE5CBA9AED8D317A9FE63 /* CommandExecutor.swift */; };
+		72974E1A6E427BA2BAC58989 /* BrowserAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108DD0B40F2EB62D80A556EF /* BrowserAction.swift */; };
+		25F9E87F5C8E150E8DA6C77F /* ApplicationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796CF199FD93FB809A8F32CF /* ApplicationAction.swift */; };
+		4D2CC004322D71082965EE3F /* VolumeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109AB991C660F0A793ABDF4C /* VolumeAction.swift */; };
+		682C2F8A1543124C37B4A1BA /* PowerAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0495F77E3BA74791ED0313C4 /* PowerAction.swift */; };
+		A282BA0A00EFD26EC06E705F /* ActionRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD6A57D99F17469616BC0BB /* ActionRecord.swift */; };
+		52AF02003137DD67F74A1E1D /* ApprovalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5C7820DDF12BC4E9FAAFD8 /* ApprovalState.swift */; };
+		77869D99F1F109BE18615691 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E178CC10411C9442B4B406E2 /* AppConfiguration.swift */; };
+/* End PBXBuildFile section */
+/* Begin PBXFileReference section */
+		848C074DE7AA94145B6CB47B /* Javira.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Javira.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC3B5AD93CBC0305C62F78F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		094E29FF4916E07F44F3C066 /* Javira.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Javira.entitlements; sourceTree = "<group>"; };
+		34BF95E9360458D0F32C68C3 /* JaviraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JaviraApp.swift"; sourceTree = "<group>"; };
+		4ABDC7B0230D4D4F80C0EB59 /* AssistantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppState/AssistantViewModel.swift"; sourceTree = "<group>"; };
+		1F83DEFE156A61B4DD39CCE9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI/ContentView.swift"; sourceTree = "<group>"; };
+		F31F2191C6D4A7FE8646CC3A /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI/MenuBarView.swift"; sourceTree = "<group>"; };
+		7B6D022DF6A62E9763FF11D8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI/SettingsView.swift"; sourceTree = "<group>"; };
+		3C20BFA670D59693B96E0F50 /* PermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI/PermissionView.swift"; sourceTree = "<group>"; };
+		9B1F3C05B305B0F81B7C7A0E /* ActionHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI/ActionHistoryView.swift"; sourceTree = "<group>"; };
+		BA20D65BE7901BBBBDCDA7B4 /* SpeechRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Speech/SpeechRecognitionService.swift"; sourceTree = "<group>"; };
+		B3E6F15047AD15B3E11CB94F /* SpeechSynthesisService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Speech/SpeechSynthesisService.swift"; sourceTree = "<group>"; };
+		E811A2143F64F1E8214F4C04 /* PermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Speech/PermissionManager.swift"; sourceTree = "<group>"; };
+		AFB8B6801B6C647800DCBD6A /* CommandParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Commands/CommandParser.swift"; sourceTree = "<group>"; };
+		048ADAE8F4158A7D4C4879C9 /* AssistantIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Commands/AssistantIntent.swift"; sourceTree = "<group>"; };
+		34014A61B1812DC5EF49AFC4 /* CommandPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Commands/CommandPolicy.swift"; sourceTree = "<group>"; };
+		C0CFE5CBA9AED8D317A9FE63 /* CommandExecutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Commands/CommandExecutor.swift"; sourceTree = "<group>"; };
+		108DD0B40F2EB62D80A556EF /* BrowserAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Actions/BrowserAction.swift"; sourceTree = "<group>"; };
+		796CF199FD93FB809A8F32CF /* ApplicationAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Actions/ApplicationAction.swift"; sourceTree = "<group>"; };
+		109AB991C660F0A793ABDF4C /* VolumeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Actions/VolumeAction.swift"; sourceTree = "<group>"; };
+		0495F77E3BA74791ED0313C4 /* PowerAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Actions/PowerAction.swift"; sourceTree = "<group>"; };
+		6CD6A57D99F17469616BC0BB /* ActionRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/ActionRecord.swift"; sourceTree = "<group>"; };
+		7B5C7820DDF12BC4E9FAAFD8 /* ApprovalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/ApprovalState.swift"; sourceTree = "<group>"; };
+		E178CC10411C9442B4B406E2 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models/AppConfiguration.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+/* Begin PBXFrameworksBuildPhase section */
+		2F6BA2D069DFD78C5E5FB2BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+/* Begin PBXGroup section */
+		1E7EC68E24D28B488C4B3DFC = {
+			isa = PBXGroup;
+			children = (
+				83A128DBBE1A9DBF571846AB /* Javira */,
+				61DEB054F32CA5A5B7265A5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61DEB054F32CA5A5B7265A5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848C074DE7AA94145B6CB47B /* Javira.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83A128DBBE1A9DBF571846AB /* Javira */ = {
+			isa = PBXGroup;
+			children = (
+				9AC3B5AD93CBC0305C62F78F /* Info.plist */,
+				094E29FF4916E07F44F3C066 /* Javira.entitlements */,
+				34BF95E9360458D0F32C68C3 /* JaviraApp.swift */,
+				4ABDC7B0230D4D4F80C0EB59 /* AssistantViewModel.swift */,
+				1F83DEFE156A61B4DD39CCE9 /* ContentView.swift */,
+				F31F2191C6D4A7FE8646CC3A /* MenuBarView.swift */,
+				7B6D022DF6A62E9763FF11D8 /* SettingsView.swift */,
+				3C20BFA670D59693B96E0F50 /* PermissionView.swift */,
+				9B1F3C05B305B0F81B7C7A0E /* ActionHistoryView.swift */,
+				BA20D65BE7901BBBBDCDA7B4 /* SpeechRecognitionService.swift */,
+				B3E6F15047AD15B3E11CB94F /* SpeechSynthesisService.swift */,
+				E811A2143F64F1E8214F4C04 /* PermissionManager.swift */,
+				AFB8B6801B6C647800DCBD6A /* CommandParser.swift */,
+				048ADAE8F4158A7D4C4879C9 /* AssistantIntent.swift */,
+				34014A61B1812DC5EF49AFC4 /* CommandPolicy.swift */,
+				C0CFE5CBA9AED8D317A9FE63 /* CommandExecutor.swift */,
+				108DD0B40F2EB62D80A556EF /* BrowserAction.swift */,
+				796CF199FD93FB809A8F32CF /* ApplicationAction.swift */,
+				109AB991C660F0A793ABDF4C /* VolumeAction.swift */,
+				0495F77E3BA74791ED0313C4 /* PowerAction.swift */,
+				6CD6A57D99F17469616BC0BB /* ActionRecord.swift */,
+				7B5C7820DDF12BC4E9FAAFD8 /* ApprovalState.swift */,
+				E178CC10411C9442B4B406E2 /* AppConfiguration.swift */,
+			);
+			path = Javira;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+/* Begin PBXNativeTarget section */
+		331AF78A0EB6D9F07E31B7FD /* Javira */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88FEBF2B7DF15F3758DC9E3B /* Build configuration list for PBXNativeTarget "Javira" */;
+			buildPhases = (
+				80513532CA6970EEADA84112 /* Sources */,
+				2F6BA2D069DFD78C5E5FB2BD /* Frameworks */,
+				1466292EF559172DC342B3E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Javira;
+			productName = Javira;
+			productReference = 848C074DE7AA94145B6CB47B /* Javira.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+/* Begin PBXProject section */
+		EC553E7FBC3AD0AD7AB94BDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 3060FD7BB02642FF578B9053 /* Build configuration list for PBXProject "Javira" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E7EC68E24D28B488C4B3DFC;
+			productRefGroup = 61DEB054F32CA5A5B7265A5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				331AF78A0EB6D9F07E31B7FD /* Javira */,
+			);
+		};
+/* End PBXProject section */
+/* Begin PBXResourcesBuildPhase section */
+		1466292EF559172DC342B3E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXSourcesBuildPhase section */
+		80513532CA6970EEADA84112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9B26372F0ABECE88386A40 /* JaviraApp.swift in Sources */,
+				C29F2508500FFA8CE3AB443E /* AssistantViewModel.swift in Sources */,
+				BB406DF6750F302763B02B70 /* ContentView.swift in Sources */,
+				6042B53241633F8926DE456E /* MenuBarView.swift in Sources */,
+				B643327657DE9D944D6CF2D3 /* SettingsView.swift in Sources */,
+				C963009334544D29914C89AE /* PermissionView.swift in Sources */,
+				A4CDE71F59D360F19001CAC9 /* ActionHistoryView.swift in Sources */,
+				1FB2FF7F03C381B2614412F3 /* SpeechRecognitionService.swift in Sources */,
+				0108370810A845405CEA94FC /* SpeechSynthesisService.swift in Sources */,
+				B512CDFA5BA3076DFCE47397 /* PermissionManager.swift in Sources */,
+				A4B0BAD48135CB59DE956D0A /* CommandParser.swift in Sources */,
+				529D304D9CECB42E4B76A7D3 /* AssistantIntent.swift in Sources */,
+				91844FD63B3700BBF383CD74 /* CommandPolicy.swift in Sources */,
+				322385D84641DB6C71E1F8AE /* CommandExecutor.swift in Sources */,
+				72974E1A6E427BA2BAC58989 /* BrowserAction.swift in Sources */,
+				25F9E87F5C8E150E8DA6C77F /* ApplicationAction.swift in Sources */,
+				4D2CC004322D71082965EE3F /* VolumeAction.swift in Sources */,
+				682C2F8A1543124C37B4A1BA /* PowerAction.swift in Sources */,
+				A282BA0A00EFD26EC06E705F /* ActionRecord.swift in Sources */,
+				52AF02003137DD67F74A1E1D /* ApprovalState.swift in Sources */,
+				77869D99F1F109BE18615691 /* AppConfiguration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+/* Begin XCBuildConfiguration section */
+		5C763621FE61FC5FD5CBA1C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		839DDF97DF95C37B42BB1367 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = "wholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		85D53E670021DD01CFEE2569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Javira/Javira.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Javira/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Javira requires microphone access to listen for your spoken voice commands strictly on-device.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Javira requires speech recognition access to transcribe your spoken voice commands locally on your Mac.";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.user.Javira;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		C86BEE053035D9AD791F0A6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Javira/Javira.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Javira/Info.plist;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Javira requires microphone access to listen for your spoken voice commands strictly on-device.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Javira requires speech recognition access to transcribe your spoken voice commands locally on your Mac.";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.user.Javira;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+/* Begin XCConfigurationList section */
+		3060FD7BB02642FF578B9053 /* Build configuration list for PBXProject "Javira" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C763621FE61FC5FD5CBA1C3 /* Debug */,
+				839DDF97DF95C37B42BB1367 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88FEBF2B7DF15F3758DC9E3B /* Build configuration list for PBXNativeTarget "Javira" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85D53E670021DD01CFEE2569 /* Debug */,
+				C86BEE053035D9AD791F0A6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC553E7FBC3AD0AD7AB94BDF /* Project object */;
+}
